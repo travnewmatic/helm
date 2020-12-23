@@ -26,5 +26,4 @@ data:
       - 'another.good-instance.example.com'
 kind: ConfigMap
 metadata:
-  name: relay
-  namespace: relay
+  name: {{ include "relay.fullname" . }}
