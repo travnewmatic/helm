@@ -41,7 +41,7 @@ spec:
           volumeMounts:
           - mountPath: /workdir/relay.yaml
             name: config
-            subpath: relay.yaml
+            subPath: relay.yaml
           ports:
             - name: http
               containerPort: 80
